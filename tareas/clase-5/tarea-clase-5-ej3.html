@@ -1,0 +1,101 @@
+<!-- 
+//TAREA: En otro archivo distinto,
+// Por cada clase de r/argentina programa existente, vamos a pedir:
+// horas, minutos y segundos de cada video. Ej. Si un video dura
+// 2 horas, 38 minutos y 20 segundos, vamos a rellenar 3 campos de texto con
+// cada dato.
+// al apretar el botón "Calcular tiempo total", debe mostrar en un
+// <strong> pre-creado el tiempo total de los videos. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Clase 5</title>
+</head>
+<body style="text-align: center; background-color: blueviolet;">
+    <style>
+        .lo-que-pido{
+            font-size: 5mm;
+            font-style: oblique;
+            font-weight:bold;
+            color: white;
+        }
+    </style>
+    <style>
+        .claseNo{
+            margin-left:12mm;
+            font-size: 7mm;
+            color: white;
+        }
+    </style>
+    <h1 style="font-family:monospace; font-size: 12mm;">Calculadora de duración de las primeras 5 clases del curso de<br>Argentina Programa</h1>
+    <h2 style="text-decoration: underline;color: white;">Ingresá la duración de cada video</h2>
+
+    <h3 class="claseNo">Clase 1</h3>
+    <div>
+        <forum style="text-align: center;" id="datos-primer-video">
+            <label class="lo-que-pido">Horas:</label>
+            <input type="text" id="horas-primer-video" placeholder="Ej: 2"/>
+            <label class="lo-que-pido">Minutos:</label>
+            <input type="text" id="minutos-primer-video" placeholder="Ej: 37"/>
+            <label class="lo-que-pido">Segundos:</label>
+            <input type="text" id="segundos-primer-video" placeholder="Ej: 26"/>
+        </forum>
+    </div>
+    <h3 class="claseNo">Clase 2</h3>
+    <div>
+        <forum style="text-align: center;" id="datos-segundo-video">
+            <label class="lo-que-pido">Horas:</label>
+            <input type="text" id="horas-segundo-video"/>
+            <label class="lo-que-pido">Minutos:</label>
+            <input type="text" id="minutos-segundo-video"/>
+            <label class="lo-que-pido">Segundos:</label>
+            <input type="text" id="segundos-segundo-video"/>
+        </forum>
+    </div>
+    <h3 class="claseNo">Clase 3</h3>
+    <div>
+        <forum style="text-align: center;" id="datos-tercer-video">
+            <label class="lo-que-pido">Horas:</label>
+            <input type="text" id="horas-tercer-video"/>
+            <label class="lo-que-pido">Minutos:</label>
+            <input type="text" id="minutos-tercer-video"/>
+            <label class="lo-que-pido">Segundos:</label>
+            <input type="text" id="segundos-tercer-video"/>
+        </forum>
+    </div>
+    <h3 class="claseNo">Clase 4</h3>
+    <div>
+        <forum style="text-align: center;" id="datos-cuarto-video">
+            <label class="lo-que-pido">Horas:</label>
+            <input type="text" id="horas-cuarto-video"/>
+            <label class="lo-que-pido">Minutos:</label>
+            <input type="text" id="minutos-cuarto-video"/>
+            <label class="lo-que-pido">Segundos:</label>
+            <input type="text" id="segundos-cuarto-video"/>
+        </forum>
+    </div>
+    <h3 class="claseNo">Clase 5</h3>
+    <div>
+        <forum style="text-align: center;" id="datos-quinto-video">
+            <label class="lo-que-pido">Horas:</label>
+            <input type="text" id="horas-quinto-video"/>
+            <label class="lo-que-pido">Minutos:</label>
+            <input type="text" id="minutos-quinto-video"/>
+            <label class="lo-que-pido">Segundos:</label>
+            <input type="text" id="segundos-quinto-video"/>
+        </forum>
+    </div>
+    <button id="boton-calcular" type="button" style="margin-left:12mm; margin-top:10mm ; background-color: rgb(23, 193, 245); font-size: 10mm; 
+    color:white; font-family:sans-serif;">Calcular</button>
+    <div>
+        <strong>
+            <h4 id="resultado" style="margin-left:12mm;color: white; font-size: 8mm "></h4>
+        </strong>
+    </div>
+    <script src="tarea-clase-5-ej3.js"></script>
+</body>
+</html>

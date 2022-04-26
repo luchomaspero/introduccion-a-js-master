@@ -1,0 +1,14 @@
+.oculto{
+    display: none
+}
+.boton{
+    background-color: blueviolet;
+}
+.reinicio{
+    background-color: yellow;
+    color: red;
+    font-weight:bold;
+}
+.fondo{
+    background-color: grey;
+}

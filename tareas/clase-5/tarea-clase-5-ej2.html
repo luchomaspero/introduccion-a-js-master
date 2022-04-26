@@ -1,0 +1,48 @@
+<!--
+//TAREA: En otro archivo html (no Index) y otro archivo js (no tarea-clase-5.js),
+// creá un formulario que capture el primer nombre, segundo nombre, apellido/s y edad del usuario
+// también vamos a crear un <h1> que diga Bienvenido!
+// vas a crear un botón de acción que una vez que lo apretás, va a
+// mostrar toda la información junta en un campo de texto
+// Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"!
+
+/*
+Ejemplo form:
+  <form id="entrada-bar" onsubmit="return false;">
+    <input type="text" placeholder="Ingresá tu nombre" id="nombre-usuario"/>
+    <input type="number" placeholder="Ingresá tu edad" id="edad-usuario" />
+    <input type="submit" value="Ingresar" id="ingresar"/>
+  </form>
+
+  <div id="resultado">Hola</div>
+*
+* */
+ -->
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 5 - Ejercicio 2</title>
+</head>
+<body>
+    <form id="datos-usuario">
+        <label>Nombre:</label>
+        <input type="text" id="nombre"/>
+        <label>Segundo Nombre:</label>
+        <input type="text" id="segundo-nombre"/>
+        <label>Apellido/s:</label>
+        <input type="text" id="apellidos"/>
+        <label>Edad:</label>
+        <input type="text" id="edad"/>
+        <button type="button" style="color: black; background-color: yellowgreen;" id="ingresar">Ingresar</button>
+    </form>
+    <h1 id="saludo-bienvenida">Bienvenido!</h1>
+
+    <script src="tarea-clase-5-ej2.js"></script>
+    
+</body>
+</html>
